@@ -9,35 +9,36 @@ const homeSongs = [
 
 // K-Pop Playlist (Mostly TXT and related for consistency)
 const kpopSongs = [
-    { id: 10, title: "Run Away", artist: "Tomorrow X Together", album: "The Dream Chapter: MAGIC", duration: 230, art: "https://placehold.co/64x64/10B981/fff?text=RA" },
-    { id: 11, title: "Dynamite", artist: "BTS", album: "Dynamite (Single)", duration: 200, art: "https://placehold.co/64x64/FBBF24/000?text=BTD" },
-    { id: 12, title: "Ditto", artist: "NewJeans", album: "OMG", duration: 183, art: "https://placehold.co/64x64/6366F1/fff?text=NJ" },
-    { id: 13, title: "I-LAND (Theme Song)", artist: "I_LAND", album: "I-LAND Single", duration: 217, art: "https://placehold.co/64x64/6366F1/fff?text=IL" },
+    { id: 10, title: "Run Away", artist: "Tomorrow X Together", album: "The Dream Chapter: MAGIC" },
+    { id: 11, title: "Dynamite", artist: "BTS", album: "Dynamite (Single)", duration: 200 },
+    { id: 12, title: "I-LAND (Theme Song)", artist: "I_LAND", album: "I-LAND Single", duration: 217},
 ];
 
 // Study Beats Playlist (Mellow, Lo-Fi simulation)
 const studyBeats = [
-    { id: 20, title: "Coffee Shop Jazz", artist: "The Chill Collective", album: "Lo-Fi Focus", duration: 245, art: "https://placehold.co/64x64/4169E1/fff?text=Lofi" },
-    { id: 21, title: "Rainy Window", artist: "Pillow Talk", album: "Soft Ambience", duration: 298, art: "https://placehold.co/64x64/A9A9A9/000?text=Rain" },
-    { id: 22, title: "Midnight Thoughts", artist: "Beat Machine", album: "Night Drive", duration: 320, art: "https://placehold.co/64x64/1C1C1C/fff?text=Night" },
+    { id: 20, title: "Take My Half", artist: "Tomorrow X Together", album: "The Star Chapter: Together", duration: 245},
+    { id: 21, title: "Bird of the Night", artist: "Tomorrow X Together", album: "The Star Chapter: Together", duration: 298},
+    { id: 22, title: "Song of the Stars", artist: "Tomorrow X Together", album: "The Star Chapter: Together", duration: 320 },
 ];
+
+
 
 // Top Songs Playlist (High energy hits simulation)
 const topSongs = [
-    { id: 30, title: "Party Rock Anthem", artist: "LMFAO", album: "Sorry For Party Rocking", duration: 270, art: "https://placehold.co/64x64/FF6B6B/fff?text=Party" },
-    { id: 31, title: "Blinding Lights", artist: "The Weeknd", album: "After Hours", duration: 202, art: "https://placehold.co/64x64/FFD700/000?text=Wknd" },
+    { id: 30, title: "Party Rock Anthem", artist: "LMFAO", album: "Sorry For Party Rocking", duration: 270 },
+    { id: 31, title: "Blinding Lights", artist: "The Weeknd", album: "After Hours", duration: 202 },
 ];
 
 // Lullabies Playlist (Calming simulation)
 const lullabies = [
-    { id: 40, title: "Twinkle Star", artist: "Baby Sleep Sounds", album: "Dreamland", duration: 215, art: "https://placehold.co/64x64/87CEEB/000?text=Sleep" },
-    { id: 41, title: "Ocean Waves", artist: "Nature Sounds", album: "White Noise", duration: 360, art: "https://placehold.co/64x64/00BFFF/fff?text=Ocean" },
+    { id: 40, title: "Twinkle Star", artist: "Baby Sleep Sounds", album: "Dreamland", duration: 215 },
+    { id: 41, title: "Ocean Waves", artist: "Nature Sounds", album: "White Noise", duration: 360 },
 ];
 
 // Party Time Playlist (Upbeat simulation)
 const partyTime = [
-    { id: 50, title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars", album: "Uptown Special", duration: 260, art: "https://placehold.co/64x64/FFA500/fff?text=Funk" },
-    { id: 51, title: "Levitating", artist: "Dua Lipa", album: "Future Nostalgia", duration: 203, art: "https://placehold.co/64x64/FF69B4/fff?text=Dua" },
+    { id: 50, title: "", artist: "Mark Ronson ft. Bruno Mars", album: "Uptown Special", duration: 260  },
+    { id: 51, title: "", artist: "Dua Lipa", album: "Future Nostalgia", duration: 203  },
 ];
 
 
