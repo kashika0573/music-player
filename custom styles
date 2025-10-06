@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root {
+    --spotify-green: #1DB954;
+    --dark-bg: #121212;
+    --dark-card: #181818;
+    --dark-hover: #282828;
+    --text-light: #b3b3b3;
+    --text-white: #ffffff;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-white);
+    overflow: hidden; /* Prevent body scroll, use player area scroll */
+}
+/* Custom scrollbar for a sleek look */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #535353;
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.icon-btn {
+    transition: color 0.2s;
+    cursor: pointer;
+}
+.icon-btn:hover {
+    color: var(--text-white);
+}
+.active-song-title {
+    color: var(--spotify-green);
+}
+.active-artist-name {
+    color: var(--text-white);
+}
+/* Active navigation link in the sidebar */
+.nav-link.active {
+    color: var(--text-white);
+    font-weight: 700;
+}
+.nav-link:not(.active) {
+    color: var(--text-light);
+    font-weight: 500;
+}
